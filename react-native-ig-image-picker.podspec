@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = package["homepage"]
   s.license      = "MIT"
   s.authors      = { "Bun" => "bunhouth99@gmail.com" }
-  s.platforms    = :ios, 12.0
+  s.platforms    = :ios, "12.0"
   s.source       = { :git => "https://github.com/Bottlemessage/react-native-bm-image-picker.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,swift}"
