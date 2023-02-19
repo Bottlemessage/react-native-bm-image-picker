@@ -3,7 +3,7 @@ const {IGImagePicker} = NativeModules;
 
 const defaultOption = {
   showCamera: true,
-  videoSinglePick: false,
+  videoSinglePick: true,
   singlePickWithAutoComplete: false,
   imageOnly: false,
   videoOnly: false,

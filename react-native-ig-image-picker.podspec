@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
   s.version      = package["version"]
   s.summary      = package["description"]
   s.description  = "Instagram-like image picker & filters for iOS supporting videos and albums"
-  s.homepage     = "https://github.com/BunHouth/react-native-ig-image-picker"
+  s.homepage     = package["homepage"]
   s.license      = "MIT"
   s.authors      = { "Bun" => "bunhouth99@gmail.com" }
-  s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/BunHouth/react-native-ig-image-picker.git", :tag => "#{s.version}" }
+  s.platforms    = :ios, 12.0
+  s.source       = { :git => "https://github.com/Bottlemessage/react-native-bm-image-picker.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true

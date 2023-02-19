@@ -8,6 +8,9 @@
 
 #import "IGCompression.h"
 
+@implementation ImageResult
+@end
+
 @implementation IGCompression
 
 - (instancetype)init {

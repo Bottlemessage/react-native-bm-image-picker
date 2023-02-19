@@ -2,7 +2,7 @@
   "name": "react-native-ig-image-picker",
   "title": "React Native Image Picker Like Instragram",
   "version": "1.0.2",
-  "description": "Instagram-like image picker & filters for iOS",
+  "description": "Instagram-like image picker & filters",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,12 +21,8 @@
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
-  "peerDependencies": {
-    "react": "16.9.0",
-    "react-native": "0.61.5"
-  },
   "devDependencies": {
-    "react": "16.9.0",
-    "react-native": "0.61.5"
+    "react": "*",
+    "react-native": "*"
   }
 }

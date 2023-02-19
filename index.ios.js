@@ -2,8 +2,8 @@ import {NativeModules} from "react-native";
 
 const {IGImagePicker} = NativeModules;
 const defaultOption = {
-  compressImageMaxWidth: 780,
-  compressImageMaxHeight: 780,
+  compressImageMaxWidth: 1024,
+  compressImageMaxHeight: 2048,
   library: {
     maxNumberOfItems: 10,
     defaultMultipleSelection: false,
